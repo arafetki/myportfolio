@@ -1,4 +1,3 @@
-import Navbar from './components/Navbar/Navbar'
 import Construction from './components/Construction/Construction'
 import { Fragment } from 'react'
 
