@@ -1,14 +1,13 @@
-import Construction from './components/Construction/Construction'
-import { Fragment } from 'react'
-
+import {Button} from "@nextui-org/react";
 import './App.css'
 function App() {
 
   return (
-    <Fragment>
-      <Construction/>
-    </Fragment>
-
+    <div className="flex gap-3 items-center">
+      <Button color="primary">
+        Button
+      </Button>
+    </div>    
   )
 }
 
